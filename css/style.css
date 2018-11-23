@@ -416,6 +416,14 @@ template {
   outline: none;
 }
 
+/* line 14, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_interface.sass */
+.input {
+  font-size: 15px;
+  padding: 25px;
+  border-right: 10px;
+  border: 1px solid #dddddd;
+}
+
 /* line 2, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_header.sass */
 .header-wrap {
   display: flex;
@@ -530,19 +538,108 @@ template {
   background-image: url(../img/main/paint-board.png);
 }
 
-/* line 10, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/style.sass */
+/* line 1, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_feedback.sass */
+.feedback {
+  padding: 94px 0;
+  background: url("../img/feedback/feedback-bg.jpg") no-repeat center right -40%;
+}
+
+/* line 5, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_feedback.sass */
+.form {
+  max-width: 575px;
+}
+
+/* line 7, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_feedback.sass */
+.form__title {
+  font-size: 24px;
+  font-family: 'Museo Sans Bold', sans-serif;
+  line-height: 35px;
+  margin-bottom: 45px;
+}
+
+/* line 12, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_feedback.sass */
+.form__subtitle {
+  display: block;
+  margin-bottom: 50px;
+}
+
+/* line 15, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_feedback.sass */
+.form__input {
+  width: 270px;
+  margin-bottom: 30px;
+}
+
+/* line 18, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_feedback.sass */
+.form__input:first-child {
+  margin-right: 30px;
+}
+
+/* line 20, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_feedback.sass */
+.form__button {
+  padding: 28px;
+  display: block;
+  width: 100%;
+  font-size: 16px;
+}
+
+/* line 25, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_feedback.sass */
+.form__footer {
+  display: flex;
+}
+
+/* line 27, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_feedback.sass */
+.form__contact {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #333333;
+  font-family: 'Museo Sans Light';
+  margin-top: 27px;
+}
+
+/* line 35, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_feedback.sass */
+.form__call {
+  margin-left: 140px;
+  width: 191px;
+  margin-top: 10px;
+  color: #333333;
+  font-family: 'Museo Sans Light';
+  font-size: 15px;
+}
+
+/* line 42, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_feedback.sass */
+.form__call::before {
+  display: block;
+  content: url(../img/feedback/phone.png);
+  margin-left: -60px;
+  margin-top: 22px;
+  margin-bottom: -46px;
+}
+
+/* line 49, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_feedback.sass */
+.form__number {
+  padding-top: 10px;
+  font-family: 'Museo Sans Bold', sans-serif;
+}
+
+/* line 11, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/style.sass */
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+/* line 13, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/style.sass */
 body {
   font-family: 'Museo Sans Light', sans-serif;
   color: #333333;
 }
 
-/* line 14, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/style.sass */
+/* line 17, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/style.sass */
 .container {
   width: 1170px;
   margin: 0 auto;
 }
 
-/* line 18, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/style.sass */
+/* line 21, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/style.sass */
 img {
   max-width: 100%;
 }
