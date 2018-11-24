@@ -745,172 +745,190 @@ img {
   .form__call {
     margin-left: 300px;
   }
+  /* line 61, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  .main-image {
+    display: center;
+  }
 }
 
 @media (max-width: 768px) {
-  /* line 63, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 66, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .container {
     width: 95%;
   }
-  /* line 66, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 69, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .main-wrap {
     flex-direction: column;
   }
-  /* line 68, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 71, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .main-wrap-text {
     min-width: 400px;
     margin: auto;
   }
-  /* line 71, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 74, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .main-text__title {
     text-align: center;
   }
-  /* line 73, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 76, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .main-advantages {
     margin-left: 180px;
   }
-  /* line 75, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .form__title {
-    text-align: center;
-    margin-left: 155px;
-  }
   /* line 78, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .form__subtitle {
+  .form__title {
     text-align: center;
     margin-left: 155px;
   }
   /* line 81, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  .form__subtitle {
+    text-align: center;
+    margin-left: 155px;
+  }
+  /* line 84, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .input {
     margin-left: 240px;
   }
-  /* line 83, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 86, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form__button {
     margin-left: 85px;
   }
-  /* line 85, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 88, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form__footer {
     flex-direction: column;
   }
-  /* line 87, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 90, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form__contact {
     margin-left: 255px;
   }
-  /* line 89, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 92, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form__call {
     margin-left: 300px;
+  }
+  /* line 94, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  .main-image {
+    transform-origin: top left;
+    transform: scale(1);
+    z-index: 1;
+    margin-left: 30px;
   }
 }
 
 @media (max-width: 425px) {
-  /* line 96, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 104, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .main-text__title {
     text-align: center;
   }
-  /* line 98, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 106, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .main-advantages {
     margin-left: 30px;
   }
-  /* line 100, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 108, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .header-text__button {
     display: none;
   }
-  /* line 103, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 111, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .header-text__contacts::before {
     content: url(../img/feedback/phone.png);
   }
-  /* line 105, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 113, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form__title {
     text-align: center;
     margin-left: 0px;
   }
-  /* line 108, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 116, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form__subtitle {
     text-align: center;
     margin-left: 0px;
   }
-  /* line 111, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 119, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .input {
     margin-left: 69px;
   }
-  /* line 113, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 121, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form__footer {
     flex-direction: column;
   }
-  /* line 115, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 123, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form__call {
     margin-left: 130px;
   }
-  /* line 117, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 125, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form__contact {
     margin-left: 95px;
   }
-  /* line 119, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 127, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form__button {
     margin-left: 0px;
+  }
+  /* line 129, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  .main-image {
+    transform-origin: top left;
+    transform: scale(1);
+    z-index: 1;
+    margin-left: 15px;
   }
 }
 
 @media (max-width: 375px) {
-  /* line 123, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 136, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .main-text__title {
     text-align: center;
     margin-left: 10px;
   }
-  /* line 126, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 139, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .main-advantages {
     margin-left: 13px;
   }
-  /* line 128, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 141, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .input {
     margin-left: 44px;
   }
-  /* line 130, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 143, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form__contact {
     margin-left: 65px;
   }
-  /* line 132, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 145, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form__call {
     margin-left: 108px;
   }
-  /* line 134, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 147, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form__subtitle {
     text-align: center;
     margin-left: 0px;
   }
-  /* line 137, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 150, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form__title {
     text-align: center;
     margin-left: 0px;
   }
-  /* line 140, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 153, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form__button {
     margin-left: 0px;
   }
 }
 
 @media (max-width: 320px) {
-  /* line 144, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 157, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .input {
     margin-left: 22px;
   }
-  /* line 146, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 159, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form__button {
     margin-left: 2px;
   }
-  /* line 148, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 161, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form__contact {
     margin-left: 45px;
   }
-  /* line 150, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 163, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form__call {
     margin-left: 90px;
   }
-  /* line 152, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 165, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form__subtitle {
     text-align: center;
     margin-left: 5px;
   }
-  /* line 155, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 168, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form__title {
     text-align: center;
     margin-left: 10px;
