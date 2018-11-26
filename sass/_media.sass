@@ -71,6 +71,48 @@
   margin-left: 26%
  .hidden-xs
   display: none
+ .header-text__phone
+  font-size: 15px
+
+
+@media(max-width: 522px)
+ .header-text__phone
+  font-size: 13px
+
+@media(max-width: 505px)
+ .header-text__phone
+  font-size: 11px
+ .button
+  font-size: 9px
+@media(max-width: 465px)
+ .header-text__phone
+  font-size: 15px
+ .button
+  display: none
+ .header-text__contacts
+   &::before
+    content: url(../img/feedback/phone.png)
+
+
+@media(max-width: 432px)
+ .form 
+  text-align: center
+ .input-tel
+  margin-top: 35px
+  margin-left: 0
+
+
+ // .input 
+ //  margin: 0
+ .form__input:first-child
+  margin: 0
+ .form__call::before
+  margin-left: -190px
+
+
+  
+
+
 
  
 @media (max-width: 425px)
@@ -82,7 +124,16 @@
    display: none
  .header-text__contacts
    &::before
-    content: url(../img/feedback/phone.png)
+    content: url(../img/feedback/phone.png) 
+ .form__contact 
+  margin-left: auto
+  margin-right: auto
+ .form__call 
+  margin-left: 140px
+ .form__call::before
+  margin-left: -255px
+ .header-text__phone
+  font-size: 15px
  .form
   margin-left: auto
   margin-right: auto
@@ -94,8 +145,9 @@
   margin-left: 0px
  .form__footer
   flex-direction: column
- .form__call
-  margin-left: 130px
+
+
+
  .form__contact
   margin-left: 95px
  .form__button
