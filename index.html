@@ -199,9 +199,9 @@
  				<div class="form__right">
  					<div class="form__right-title">Оставьте заявку на бесплатный <br> <span class="min-title">расчет ремонта по телефону</span></div>
  					<div class="form__right-subtitle">Для этого заполните форму ниже</div>
- 					<form action="#">
- 			<input type="text" class="input input-name form__right-input" placeholder="Ваше имя" required><br>
- 			<input type="tel" class="input input-tel-right form__right-input" placeholder="Ваш телефон. 8-xxx-xxx-xx-xx" pattern="8-[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" required><br>
+ 					<form action="mail.php" class="js-ajax">
+ 			<input type="text" name="fio" class="input input-name form__right-input" placeholder="Ваше имя" required><br>
+ 			<input type="tel" name="phone" class="input input-tel-right form__right-input" placeholder="Ваш телефон. 8-xxx-xxx-xx-xx" pattern="8-[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" required><br>
  			<button type="submit" class="button form__right-button">Рассчитать <span class ="hidden-xs">стоимость</span></button>
  			<div class="form__right-footer">Мы перезвоним Вам в течение 60 секунд</div>
  					</form>
@@ -247,6 +247,19 @@ $(document).ready(function(){
        
      ]
   });
+
+  $('.js-ajax').on('submit', function(){
+  	var fioVal = $('[name = fio]').val(),
+  			phoneVal = $('[name = phone]').val();
+  	$.ajax({
+				url: "mail.php",
+				data: {fio:fioVal, phone: phoneVal},
+				success: function(){
+					alert('Заявка на расчет стоимости отправлена!');
+				}
+			})
+			return false;
+  	});
 });
 		 	
  </script>
