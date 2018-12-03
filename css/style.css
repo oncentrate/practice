@@ -690,6 +690,121 @@ template {
   background-size: 100%;
 }
 
+/* line 2, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_offer.sass */
+#first {
+  list-style-image: url(../img/offer/first.png);
+  margin-bottom: 30px;
+}
+
+/* line 5, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_offer.sass */
+#second {
+  list-style-image: url(../img/offer/second.png);
+  margin-bottom: 30px;
+}
+
+/* line 8, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_offer.sass */
+#third {
+  list-style-image: url(../img/offer/third.png);
+  margin-bottom: 30px;
+}
+
+/* line 11, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_offer.sass */
+#fourth {
+  list-style-image: url(../img/offer/fourth.png);
+  margin-bottom: 30px;
+}
+
+/* line 14, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_offer.sass */
+ul {
+  margin-left: 0 !important;
+}
+
+/* line 16, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_offer.sass */
+li {
+  padding-left: 32px;
+}
+
+/* line 18, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_offer.sass */
+.offer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 25, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_offer.sass */
+.offer__left {
+  background-color: #ffc000;
+  padding-left: 376px;
+  width: 1024px;
+  height: 660px;
+  margin-top: -37px;
+}
+
+/* line 31, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_offer.sass */
+.offer__left-title {
+  margin-top: 106px;
+  margin-bottom: 50px;
+}
+
+/* line 34, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_offer.sass */
+.offer__left-subtitle {
+  margin-bottom: 103px;
+}
+
+/* line 36, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_offer.sass */
+.form__right {
+  display: block;
+  padding-left: 134px;
+  background: url(../img/offer/bg-right.png) no-repeat;
+  box-sizing: cover;
+  padding-right: 20px;
+  font-weight: 400;
+  line-height: 33px;
+  padding-top: 103px;
+}
+
+/* line 46, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_offer.sass */
+.form__right-title {
+  font-family: 'Museo Sans Bold', sans-serif;
+  font-size: 22px;
+}
+
+/* line 52, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_offer.sass */
+.form__right-subtitle {
+  font-family: 'Museo Sans Light';
+  font-size: 16px;
+  margin-bottom: 34px;
+  margin-top: 52px;
+}
+
+/* line 57, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_offer.sass */
+.form__right-input {
+  width: 370px;
+  height: 65px;
+  border-radius: 10px;
+  border: 1px solid #dddddd;
+  margin-top: 15px;
+}
+
+/* line 63, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_offer.sass */
+.form__right-button {
+  margin-top: 30px;
+  width: 368px;
+  height: 70px;
+  border-radius: 10px;
+  margin-bottom: 33px;
+}
+
+/* line 69, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_offer.sass */
+.form__right-footer {
+  font-family: 'Museo Sans Light';
+  line-height: 24px;
+  font-size: 15px;
+  padding-bottom: 93px;
+}
+
 /* line 1, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_modal.sass */
 .modal {
   position: fixed;
@@ -875,41 +990,52 @@ ul {
   margin-left: -80px;
 }
 
-/* line 15, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/style.sass */
+/* line 16, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/style.sass */
 *, *:after, *:before {
   box-sizing: border-box;
 }
 
-/* line 17, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/style.sass */
+/* line 18, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/style.sass */
 body {
   font-family: 'Museo Sans Light', sans-serif;
   color: #333333;
 }
 
-/* line 21, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/style.sass */
+/* line 22, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/style.sass */
 .container {
   width: 1170px;
   margin: 0 auto;
 }
 
-/* line 26, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/style.sass */
+/* line 27, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/style.sass */
 img {
   max-width: 100%;
 }
 
-/* line 30, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/style.sass */
+/* line 31, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/style.sass */
 .section-title {
   font-family: 'Museo Sans Bold', sans-serif;
   line-height: 45px;
 }
 
-/* line 33, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/style.sass */
+/* line 34, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/style.sass */
 .section-title_center {
   text-align: center;
 }
 
+@media (max-width: 2560px) {
+  /* line 3, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  .offer__left {
+    width: 164%;
+  }
+  /* line 5, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  .offer__right {
+    width: 100%;
+  }
+}
+
 @media (max-width: 1920px) {
-  /* line 2, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 10, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .main-image {
     transform-origin: top left;
     transform: scale(1.3);
@@ -918,8 +1044,15 @@ img {
   }
 }
 
+@media (max-width: 1680px) {
+  /* line 18, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  .offer__left {
+    padding-left: 100px;
+  }
+}
+
 @media (max-width: 1600px) {
-  /* line 9, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 22, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .main-image {
     transform-origin: top left;
     transform: scale(1);
@@ -929,274 +1062,352 @@ img {
 }
 
 @media (max-width: 1199px) {
-  /* line 15, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 31, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .container {
     width: 970px;
   }
-  /* line 17, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 33, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .main-image {
     height: 100%;
   }
-  /* line 19, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 35, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .modal__dialog {
     width: 970px;
   }
-  /* line 21, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 37, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .main__left-etc {
     margin-left: 75px;
   }
-  /* line 23, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 39, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .main__left-3 {
     margin-left: 75px;
   }
-  /* line 25, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 41, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .main__left-foot {
     margin-left: 75px;
   }
-  /* line 27, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 43, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .modal__right-poz {
     margin-left: 70px;
   }
-  /* line 29, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 45, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .modal__right-title {
     margin-right: 155px;
   }
-  /* line 31, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 47, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .modal__right-footer {
     margin-left: -145px;
   }
-  /* line 35, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 51, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .slider__item img {
     max-width: 95%;
   }
 }
 
+@media (max-width: 1050px) {
+  /* line 55, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  .offer {
+    display: block;
+  }
+  /* line 57, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  .offer__left {
+    width: 100%;
+  }
+  /* line 59, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  .offer__left-title {
+    margin-top: 35px;
+    padding-top: 50px;
+  }
+  /* line 62, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  .form__right {
+    background: #fff;
+  }
+}
+
 @media (max-width: 992px) {
-  /* line 39, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 67, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .container {
     width: 767px;
   }
-  /* line 43, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 71, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .main-text__title {
     font-size: 30px;
     line-height: 36px;
   }
-  /* line 46, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 74, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .main-image {
     height: 100%;
   }
-  /* line 48, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 76, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .feedback {
     background-color: #fff;
   }
-  /* line 50, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 78, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .modal__dialog {
     width: 740px;
-  }
-  /* line 52, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+    height: 97%;
+}
+  /* line 80, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .main__left-etc {
     margin-left: 150px;
   }
-  /* line 54, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 82, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .main__left-3 {
     margin-left: 150px;
   }
-  /* line 56, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 84, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .main__left-foot {
     margin-left: 150px;
   }
-  /* line 58, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 86, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .modal__right-poz {
     margin-left: 70px;
   }
-  /* line 60, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 88, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .modal__right-title {
     margin-right: 243px;
   }
-  /* line 62, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 90, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .modal__right-subtitle {
     font-size: 13px;
     margin-left: -7px;
   }
-  /* line 65, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 93, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .modal__right-footer {
     margin-right: 90px;
   }
-  /* line 67, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 95, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .modal__right__input-1 {
     width: 275px;
   }
-  /* line 69, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 97, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .modal__right__input-2 {
     width: 275px;
   }
-  /* line 71, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 99, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .modal__right__button {
     width: 275px;
+  }
+  .modal__main{
+   display: block;
+  }
+  .main__left{
+   margin-top: 5%;
+   margin-left: -10%;
+  }
+  .modal__right-poz {
+    margin: 0;
+  }
+  .modal__right{
+    margin-left: 30%;
+  }
+  .modal__right-title {
+    margin-right: 219px;
+    margin-bottom: 5px;
+  }
+  .modal__right-subtitle {
+    margin-left: -15px;
+  }
+  .modal__right__input-1 {
+    margin-top: 9px;
   }
 }
 
 @media (max-width: 768px) {
-  /* line 75, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 103, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .container {
     width: 95%;
   }
-  /* line 78, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 106, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  .main__left {
+    margin-left: -20%;
+  }
   .main-wrap {
     flex-direction: column;
   }
-  /* line 80, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 108, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .main-text {
     max-width: 400px;
     margin: auto;
   }
-  /* line 83, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 111, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .main-text__title {
     text-align: center;
   }
-  /* line 85, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 113, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 88, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 116, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form__button {
     width: 50%;
     font-size: 16px;
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 93, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .modal__dialog {
-    width: 546px;
-    height: 730px;
+  /* line 121, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  .modal__dialog{
+    width: 98%;
   }
-  /* line 96, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 124, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .main__left-etc {
     margin-left: 245px;
   }
-  /* line 98, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 126, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .main__left-3 {
     margin-left: 245px;
   }
-  /* line 100, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 128, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .main__left-foot {
     margin-left: 245px;
   }
-  /* line 102, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 130, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .modal__right-poz {
     margin-left: 70px;
   }
-  /* line 104, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 132, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .modal__right-title {
-    margin-right: 329px;
+    margin-right: 278px;
   }
-  /* line 106, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 134, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .modal__right-subtitle {
     font-size: 9px;
     margin-left: -10px;
   }
-  /* line 109, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 137, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .modal__right-footer {
     margin-right: 185px;
   }
-  /* line 111, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 139, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .modal__right__input-1 {
     width: 190px;
     height: 50px;
   }
-  /* line 114, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 142, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .modal__right__input-2 {
     width: 190px;
     height: 50px;
   }
-  /* line 117, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 145, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .modal__right__button {
     width: 190px;
     height: 50px;
     padding: 5px;
   }
-  /* line 121, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 149, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .modal__right-contact {
     font-size: 11px;
   }
-  /* line 123, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 151, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .modal__right-call {
     font-size: 17px;
+    margin-right: -44px;
   }
-  /* line 125, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  .hidden{
+    display: none;
+  }
+  /* line 153, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   ul {
     line-height: 22px;
   }
 }
 
+@media (max-width: 606px) {
+  /* line 157, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  .form {
+    text-align: center;
+  }
+  /* line 159, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  .form__right {
+    padding: 0;
+    left: 25%;
+    position: absolute;
+    padding-top: 80px;
+  }
+  /* line 164, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  .form__right-input {
+    width: 200px;
+    margin-left: 50px;
+  }
+  /* line 167, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  .form__right-button {
+    width: 200px;
+    margin-left: 50px;
+  }
+}
+
 @media (max-width: 605px) {
-  /* line 129, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 172, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .container {
     width: 95%;
   }
-  /* line 132, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 175, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .main-wrap {
     flex-direction: column;
   }
-  /* line 134, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 177, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .main-text {
     max-width: 400px;
     margin: auto;
   }
-  /* line 137, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 180, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .main-text__title {
     text-align: center;
   }
-  /* line 139, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 182, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 142, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 185, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form__button {
     width: 270px;
     font-size: 16px;
     margin-left: 26%;
   }
-  /* line 146, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 189, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   input {
     margin-left: 26%;
   }
-  /* line 148, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 191, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .hidden-xs {
     display: none;
   }
-  /* line 150, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 193, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .header-text__phone {
     font-size: 15px;
   }
 }
 
+@media (max-width: 590px) {
+  /* line 197, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  .form__right {
+    margin-left: auto;
+  }
+}
+
 @media (max-width: 576px) {
-  /* line 154, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .modal__dialog {
-    width: 310px;
-    height: 770px;
+  /* line 201, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+
+  /* line 204, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  .main__left {
+    margin-left: -20%;
+    margin-top: 10%;
   }
-  /* line 157, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .main__left-img {
-    display: none;
-  }
-  /* line 159, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 206, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .main__left-1 {
-    margin-left: 212px;
+   margin-bottom: 35px;
   }
-  /* line 161, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 208, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .main__left-2 {
-    margin-left: 364px;
-    margin-bottom: 98px;
+   margin-bottom: 35px;
   }
-  /* line 164, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 211, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .main__left-3 {
-    margin-left: 212px;
+   margin-bottom: 35px;
   }
-  /* line 166, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 213, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .main__left-text {
     width: 171px;
     height: 78px;
@@ -1204,180 +1415,146 @@ img {
     margin-left: 142px;
     line-height: 15px;
   }
-  /* line 172, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 219, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .main__left-foot {
-    margin-left: 354px;
+    margin-left: 30%;
   }
-  /* line 174, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 221, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .modal__right-poz {
     margin-left: 70px;
   }
-  /* line 176, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 223, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .modal__right-title {
-    margin-left: -195px;
-    font-family: 'Museo Sans Light';
-    font-size: 15px;
-    margin-top: -27px;
+    margin-right: 66%;
   }
-  /* line 181, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 228, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .modal__right-subtitle {
     font-size: 9px;
     margin-left: -10px;
   }
-  /* line 184, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 231, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .modal__right-footer {
-    margin-left: -493px;
+    margin-right: 37%;
   }
-  /* line 186, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 233, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .modal__right__input-1 {
-    width: 144px;
-    height: 38px;
-    margin-left: -79px;
-    margin-top: -19px;
+   margin-left: -40px;
   }
-  /* line 191, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 238, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .modal__right__input-2 {
-    width: 145px;
-    height: 50px;
-    margin-left: -79px;
-    margin-bottom: 0px;
+   margin-left: -40px;
   }
-  /* line 196, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 243, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .modal__right__button {
-    width: 167px;
-    height: 23px;
-    padding: 0px;
-    margin-top: 394px;
-    margin-left: -170px;
+    margin-left: -40px;
   }
-  /* line 202, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 249, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .modal__right-contact {
     font-size: 11px;
   }
-  /* line 204, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 251, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .modal__right-call {
     font-size: 17px;
   }
-  /* line 206, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 253, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   ul {
     line-height: 22px;
   }
-  /* line 208, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 255, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .price {
     font-family: 'Museo Sans Light';
     font-size: 12px;
   }
-  /* line 211, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 258, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .title {
     font-family: 'Museo Sans Light';
   }
-  /* line 213, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 260, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .hidden {
     display: none;
   }
 }
 
 @media (max-width: 522px) {
-  /* line 219, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 266, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .header-text__phone {
     font-size: 13px;
   }
 }
 
 @media (max-width: 505px) {
-  /* line 223, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 270, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .header-text__phone {
     font-size: 11px;
   }
-  /* line 225, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 272, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .button {
     font-size: 9px;
   }
 }
 
 @media (max-width: 465px) {
-  /* line 228, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 275, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .header-text__phone {
     font-size: 15px;
   }
-  /* line 230, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 277, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .button {
     display: none;
   }
-  /* line 233, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 280, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .header-text__contacts::before {
     content: url(../img/feedback/phone.png);
   }
-  /* line 235, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .modal__dialog {
-    width: 310px;
-    height: 770px;
+  /* line 282, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 285, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  .main__left{
+    margin-left: -20%;
+    margin-top: -10%;
   }
-  /* line 238, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .main__left-img {
-    display: none;
-  }
-  /* line 240, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 287, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .main__left-1 {
-    margin-left: 212px;
   }
-  /* line 242, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 289, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .main__left-2 {
-    margin-left: 364px;
-    margin-bottom: 98px;
+
   }
-  /* line 245, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 292, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .main__left-3 {
-    margin-left: 212px;
+
   }
-  /* line 247, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 294, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .main__left-text {
-    width: 171px;
-    height: 78px;
-    margin-top: -105px;
-    margin-left: 142px;
-    line-height: 15px;
+
   }
-  /* line 253, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 300, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .main__left-foot {
-    margin-left: 354px;
+    width: 50%;
+    margin-left: 30%;
   }
-  /* line 255, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .modal__right-poz {
-    margin-left: 70px;
-  }
-  /* line 257, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 302, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+
+  /* line 304, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .modal__right-title {
-    margin-left: -195px;
-    font-family: 'Museo Sans Light';
-    font-size: 15px;
-    margin-top: -27px;
+;
   }
-  /* line 262, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 309, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .modal__right-subtitle {
-    font-size: 9px;
-    margin-left: -10px;
+;
   }
-  /* line 265, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .modal__right-footer {
-    margin-left: -490px;
-    margin-top: 400px;
+  /* line 312, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  .modal__right-poz{
+      margin-left: 15%;
   }
-  /* line 268, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 315, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .modal__right__input-1 {
-    width: 144px;
-    height: 38px;
-    margin-left: -79px;
-    margin-top: -19px;
+
   }
-  /* line 273, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 320, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .modal__right__input-2 {
-    width: 145px;
-    height: 50px;
-    margin-left: -79px;
-    margin-bottom: 0px;
+
   }
-  /* line 278, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 325, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .modal__right__button {
     width: 167px;
     height: 23px;
@@ -1385,497 +1562,286 @@ img {
     margin-top: 394px;
     margin-left: -170px;
   }
-  /* line 284, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 331, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .modal__right-contact {
     font-size: 11px;
   }
-  /* line 286, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 333, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .modal__right-call {
     font-size: 17px;
   }
-  /* line 288, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 335, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   ul {
     line-height: 22px;
   }
-  /* line 290, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 337, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .price {
     font-family: 'Museo Sans Light';
     font-size: 12px;
   }
-  /* line 293, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 340, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .title {
     font-family: 'Museo Sans Light';
   }
-  /* line 295, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 342, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .hidden {
     display: none;
+  }
+
+  .form__right{
+    margin-left: -35px;
+  }
+
+  .form__right-button{
+    display: block !important;
   }
 }
 
 @media (max-width: 432px) {
-  /* line 300, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 347, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form {
     text-align: center;
   }
-  /* line 302, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 349, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .input-tel {
     margin-top: 35px;
     margin-left: 0;
   }
-  /* line 309, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 356, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form__input:first-child {
     margin: 0;
   }
-  /* line 311, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 358, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form__call::before {
     margin-left: -190px;
     height: 46px;
   }
-  /* line 315, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .main__left-img {
-    display: none;
-  }
-  /* line 317, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .main__left-1 {
-    margin-left: 212px;
-  }
-  /* line 319, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .main__left-2 {
-    margin-left: 364px;
-    margin-bottom: 98px;
-  }
-  /* line 322, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .main__left-3 {
-    margin-left: 212px;
-  }
-  /* line 324, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .main__left-text {
-    width: 171px;
-    height: 78px;
-    margin-top: -105px;
-    margin-left: 142px;
-    line-height: 15px;
-  }
-  /* line 330, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .main__left-foot {
-    margin-left: 354px;
-  }
-  /* line 332, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .modal__right-poz {
-    margin-left: 70px;
-  }
-  /* line 334, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .modal__right-title {
-    margin-left: -195px;
-    font-family: 'Museo Sans Light';
-    font-size: 15px;
-    margin-top: -27px;
-  }
-  /* line 339, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .modal__right-subtitle {
-    font-size: 9px;
-    margin-left: -10px;
-  }
-  /* line 342, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .modal__right-footer {
-    margin-left: -493px;
-  }
-  /* line 344, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .modal__right__input-1 {
-    width: 144px;
-    height: 38px;
-    margin-left: -79px;
-    margin-top: -19px;
-  }
-  /* line 349, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .modal__right__input-2 {
-    width: 145px;
-    height: 50px;
-    margin-left: -79px;
-    margin-bottom: 0px;
-  }
-  /* line 354, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .modal__right__button {
-    width: 167px;
-    height: 23px;
-    padding: 0px;
-    margin-top: 394px;
-    margin-left: -170px;
-  }
-  /* line 360, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .modal__right-contact {
-    font-size: 11px;
-  }
   /* line 362, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .modal__right-call {
-    font-size: 17px;
-  }
-  /* line 364, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+ 
+  /* line 411, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   ul {
     line-height: 22px;
   }
-  /* line 366, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 413, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .price {
     font-family: 'Museo Sans Light';
     font-size: 12px;
   }
-  /* line 369, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 416, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .title {
     font-family: 'Museo Sans Light';
   }
-  /* line 371, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 418, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .hidden {
     display: none;
   }
+  .input-tel {
+    margin-top: 35px;
+    margin-left: -40px;
+  }
+
 }
 
 @media (max-width: 425px) {
-  /* line 382, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 429, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .main-text__title {
     text-align: center;
   }
-  /* line 384, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 431, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .main-advantages {
     margin-left: 30px;
   }
-  /* line 386, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 433, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .header-text__button {
     display: none;
   }
-  /* line 389, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 436, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .header-text__contacts::before {
     content: url(../img/feedback/phone.png);
   }
-  /* line 391, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 438, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form__contact {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 394, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 441, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form__call {
     margin-left: 140px;
   }
-  /* line 396, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 443, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form__call::before {
     margin-left: -255px;
   }
-  /* line 398, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 445, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .header-text__phone {
     font-size: 15px;
   }
-  /* line 400, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 447, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 403, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 450, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form__title {
     text-align: center;
     margin-left: 0px;
   }
-  /* line 406, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 453, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form__subtitle {
     text-align: center;
     margin-left: 0px;
   }
-  /* line 409, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 456, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form__footer {
     flex-direction: column;
   }
-  /* line 414, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 461, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form__contact {
     margin-left: 95px;
   }
-  /* line 416, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 463, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form__button {
     width: 270px;
     margin-left: 17%;
   }
-  /* line 419, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 466, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .hidden-xs {
     display: none;
   }
-  /* line 421, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 468, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   input {
     margin-left: 17%;
   }
-  /* line 428, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .modal__dialog {
-    width: 310px;
-    height: 770px;
-  }
-  /* line 431, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .main__left-img {
-    display: none;
-  }
-  /* line 433, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .main__left-1 {
-    margin-left: 212px;
-  }
-  /* line 435, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .main__left-2 {
-    margin-left: 364px;
-    margin-bottom: 98px;
-  }
-  /* line 438, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .main__left-3 {
-    margin-left: 212px;
-  }
-  /* line 440, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .main__left-text {
-    width: 171px;
-    height: 78px;
-    margin-top: -105px;
-    margin-left: 142px;
-    line-height: 15px;
-  }
-  /* line 446, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .main__left-foot {
-    margin-left: 354px;
-  }
-  /* line 448, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .modal__right-poz {
-    margin-left: 70px;
-  }
-  /* line 450, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .modal__right-title {
-    margin-left: -195px;
-    font-family: 'Museo Sans Light';
-    font-size: 15px;
-    margin-top: -27px;
-  }
-  /* line 455, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .modal__right-subtitle {
-    font-size: 9px;
-    margin-left: -10px;
-  }
-  /* line 458, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .modal__right-footer {
-    margin-left: -493px;
-  }
-  /* line 460, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .modal__right__input-1 {
-    width: 144px;
-    height: 38px;
-    margin-left: -79px;
-    margin-top: -19px;
-  }
-  /* line 465, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .modal__right__input-2 {
-    width: 145px;
-    height: 50px;
-    margin-left: -79px;
-    margin-bottom: 0px;
-  }
-  /* line 470, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .modal__right__button {
-    width: 167px;
-    height: 23px;
-    padding: 0px;
-    margin-top: 394px;
-    margin-left: -170px;
-  }
-  /* line 476, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .modal__right-contact {
-    font-size: 11px;
-  }
-  /* line 478, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .modal__right-call {
-    font-size: 17px;
-  }
-  /* line 480, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 475, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+ 
+  /* line 527, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   ul {
     line-height: 22px;
   }
-  /* line 482, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 529, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .price {
     font-family: 'Museo Sans Light';
     font-size: 12px;
   }
-  /* line 485, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 532, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .title {
     font-family: 'Museo Sans Light';
   }
-  /* line 487, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 534, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .hidden {
     display: none;
   }
 }
 
+@media (max-width: 400px) {
+  .offer__left {
+    padding-left: 20px;
+  }
+
+  .form__right {
+    margin-left: -55px;
+  }
+}
+
 @media (max-width: 375px) {
-  /* line 491, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 538, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  .foot{
+   margin-left: 25px;
+  }
   .main-text__title {
     text-align: center;
     margin-left: 10px;
   }
-  /* line 494, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 541, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .main-advantages {
     margin-left: 13px;
   }
-  /* line 496, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 543, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form__contact {
     margin-left: 65px;
   }
-  /* line 498, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 545, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form__call {
     margin-left: 108px;
   }
-  /* line 500, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 547, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form__subtitle {
     text-align: center;
     margin-left: 0px;
   }
-  /* line 503, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 550, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form__title {
     text-align: center;
     margin-left: 0px;
   }
-  /* line 506, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 553, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form__button {
     width: 270px;
     margin-left: 13%;
   }
-  /* line 509, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 556, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   input {
     margin-left: 13%;
   }
-  /* line 511, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 558, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .hidden-xs {
     display: none;
   }
 }
 
 @media (max-width: 320px) {
-  /* line 514, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 561, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form__button {
     margin-left: 17px;
   }
-  /* line 516, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 563, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form__contact {
     margin-left: 45px;
   }
-  /* line 518, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 565, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form__call {
     margin-left: 90px;
   }
-  /* line 520, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 567, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form__subtitle {
     text-align: center;
     margin-left: 5px;
   }
-  /* line 523, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 570, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form__title {
     text-align: center;
     margin-left: 10px;
   }
-  /* line 526, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 573, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   input {
     margin-left: 17px;
   }
-  /* line 528, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 575, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form__input:first-child {
     margin-right: 0px;
   }
-  /* line 530, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .modal__dialog {
-    width: 310px;
-    height: 770px;
-  }
-  /* line 533, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .main__left-img {
-    display: none;
-  }
-  /* line 535, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .main__left-1 {
-    margin-left: 212px;
-  }
-  /* line 537, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .main__left-2 {
-    margin-left: 364px;
-    margin-bottom: 98px;
-  }
-  /* line 540, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .main__left-3 {
-    margin-left: 212px;
-  }
-  /* line 542, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .main__left-text {
-    width: 171px;
-    height: 78px;
-    margin-top: -105px;
-    margin-left: 142px;
-    line-height: 15px;
-  }
-  /* line 548, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .main__left-foot {
-    margin-left: 354px;
-  }
-  /* line 550, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .modal__right-poz {
-    margin-left: 70px;
-  }
-  /* line 552, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .modal__right-title {
-    margin-left: -195px;
-    font-family: 'Museo Sans Light';
-    font-size: 15px;
-    margin-top: -27px;
-  }
-  /* line 557, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .modal__right-subtitle {
-    font-size: 9px;
-    margin-left: -10px;
-  }
-  /* line 560, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .modal__right-footer {
-    margin-left: -493px;
-  }
-  /* line 562, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .modal__right__input-1 {
-    width: 144px;
-    height: 38px;
-    margin-left: -79px;
-    margin-top: -19px;
-  }
-  /* line 567, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .modal__right__input-2 {
-    width: 145px;
-    height: 50px;
-    margin-left: -79px;
-    margin-bottom: 0px;
-  }
-  /* line 572, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .modal__right__button {
-    width: 167px;
-    height: 23px;
-    padding: 0px;
-    margin-top: 394px;
-    margin-left: -170px;
-  }
-  /* line 578, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .modal__right-contact {
-    font-size: 11px;
-  }
-  /* line 580, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .modal__right-call {
-    font-size: 17px;
-  }
-  /* line 582, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 577, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  
+  /* line 629, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   ul {
     line-height: 22px;
   }
-  /* line 584, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 631, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .price {
     font-family: 'Museo Sans Light';
     font-size: 12px;
   }
-  /* line 587, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 634, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .title {
     font-family: 'Museo Sans Light';
   }
-  /* line 589, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  /* line 636, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .hidden {
     display: none;
+  }
+  .main__left-foot {
+    width: 45%;
+    margin-left: 33%;
   }
 }
 
