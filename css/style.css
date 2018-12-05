@@ -1200,12 +1200,17 @@ img {
    margin-top: 5%;
    margin-left: -10%;
   }
-  .modal__right-poz {
-    margin: 0;
-  }
+
   .modal__right{
-    margin-left: 30%;
+    display: flex;
   }
+
+  .modal__right-poz {
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
   .modal__right-title {
     margin-right: 219px;
     margin-bottom: 5px;
@@ -1403,14 +1408,17 @@ img {
   /* line 206, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .main__left-1 {
    margin-bottom: 35px;
+   margin-left: 150px;
   }
   /* line 208, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .main__left-2 {
    margin-bottom: 35px;
+   margin-left: 150px;
   }
   /* line 211, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .main__left-3 {
    margin-bottom: 35px;
+   margin-left: 150px;
   }
   /* line 213, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .main__left-text {
@@ -1602,6 +1610,13 @@ img {
   .form__right-button{
     display: block !important;
   }
+  .main__left-foot {
+    width: 85%;
+    margin-left: 108px;
+  }
+  .font{
+    margin-left: 25px;
+  }
 }
 
 @media (max-width: 432px) {
@@ -1738,6 +1753,14 @@ img {
   .hidden {
     display: none;
   }
+  .main__left-foot{
+    width: 80%;
+    margin-left: 80px;
+  }
+  .foot {
+    margin-left: 42px;
+  }
+      
 }
 
 @media (max-width: 400px) {
@@ -1797,6 +1820,10 @@ img {
   .modal__right-call{
     margin-left: 20%;
   }
+  .main__left-foot {
+     width: 80%;
+     margin-left: 70px;
+  }
 }
 
 @media (max-width: 320px) {
@@ -1850,8 +1877,7 @@ img {
     display: none;
   }
   .main__left-foot {
-    width: 45%;
-    margin-left: 33%;
+    margin-left: 18%;
   }
 }
 
