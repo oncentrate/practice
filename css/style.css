@@ -908,6 +908,135 @@ hr {
   margin-bottom: 28px;
 }
 
+.section-title{
+  font-family: 'Museo Sans Bold', sans-serif;
+  line-height: 45px;
+  margin-bottom: 58px;
+  margin-top: 100px;
+}
+.section-title_center{
+  text-align: center;
+}
+
+.section-subtitle{
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 59px;
+  font-family: 'Museo Sans Light';
+}
+
+.price-wrap{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 162px;
+
+}
+
+.card{
+  max-width: 370px;
+  min-height: 410px;
+  text-align: center;
+  padding-bottom: 47px;
+  border: 1px solid #e8e8e8;
+  margin: 10px;
+  transition: 0.2s;
+}
+.card:hover{
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.1)
+  /*z-index: 0;*/
+}
+
+.card:hover > .card__img-wrap:after {
+  opacity: 1;
+}
+
+.card__img{
+  
+}
+.card__img-wrap{
+  position: relative;
+  margin-bottom: 39px;
+}
+
+.card__img-wrap:after{
+  content: '';
+  height: 98.8%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: 0.2s;
+  opacity: 0;
+  background-image: linear-gradient(to top, #ffd200 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.card__title{
+  margin-bottom: 31px;
+  font-size: 18px;
+}
+
+.card__link{
+  font-size: 16px;
+  font-family: 'Museo Sans Bold', sans-serif;
+  text-decoration: none;
+  color: #333333;
+  display: inline-block;
+  position: relative;
+}
+.card__link:after{
+  content: '';
+  width: 100%;
+  height: 3px;
+  background-color: #ffd200;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+}
+
+.card__link:hover:after {
+  height: 13px;
+  z-index: -1;
+  transition: 0.2s
+}
+
+.step-wrap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.order{
+  max-width: 226px;
+  min-height: 175px;
+  text-align: center;
+
+}
+
+.step-arrow{
+  padding-bottom: 176px;
+}
+
+.step__footer{
+  width: 100%;
+  height: 280px;
+  background-color: #ffc000;
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.step__footer-title{
+  font-family: 'Museo Sans Light';
+  font-size: 32px;
+  line-height: 50px;
+}
+.step__footer-title-center{
+  text-align: center;
+}
+
+
 /* line 60, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_modal.sass */
 ul {
   list-style-image: url(../img/modal/li-img.png);
@@ -1100,6 +1229,10 @@ img {
   .slider__item img {
     max-width: 95%;
   }
+  .price-wrap{
+  align-items: center;
+  justify-content: center;
+  }
 }
 
 @media (max-width: 1050px) {
@@ -1230,17 +1363,21 @@ img {
     margin-bottom: 25px;
   }
   
-/*  .modal__right-title {
-    margin-right: 219px;
-    margin-bottom: 5px;
+  .step-arrow{
+    display: none;
   }
-  .modal__right-subtitle {
-    margin-left: -15px;
+
+  .step-wrap{
+  flex-wrap: wrap;
   }
-  .modal__right__input-1 {
-    margin-top: 9px;
-  }*/
+
+  .order {
+    margin-right: 15px;
+  }
+
 }
+
+
 
 @media (max-width: 768px) {
   /* line 103, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
@@ -1339,7 +1476,11 @@ img {
     line-height: 22px;
   }
 }
-
+@media (max-width: 698px) {
+.step__footer-title{
+  font-size: 25px;
+  }
+}
 @media (max-width: 606px) {
   /* line 157, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form {
@@ -1774,6 +1915,10 @@ img {
   .foot {
     margin-left: 42px;
   }
+
+  .step__footer-title {
+    font-size: 20px;
+}
       
 }
 
