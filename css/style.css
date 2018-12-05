@@ -1163,32 +1163,45 @@ img {
   }
   /* line 86, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .modal__right-poz {
-    margin-left: 70px;
+    margin: 0;
   }
   /* line 88, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .modal__right-title {
-    margin-right: 243px;
+    /*margin-right: 243px;*/
+    margin: 0;
+    padding-bottom: 20px;
   }
   /* line 90, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .modal__right-subtitle {
     font-size: 13px;
-    margin-left: -7px;
+    margin: 0;
+    /*margin-left: -7px;*/
   }
   /* line 93, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .modal__right-footer {
     margin-right: 90px;
+    margin: 0;
   }
   /* line 95, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .modal__right__input-1 {
     width: 275px;
+    margin-left: 0;
+    margin-right: 0;
+    
   }
   /* line 97, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .modal__right__input-2 {
     width: 275px;
+    margin-left: 0;
+    margin-right: 0;
+    
   }
   /* line 99, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .modal__right__button {
     width: 275px;
+    margin-left: 0;
+    margin-right: 0;
+
   }
   .modal__main{
    display: block;
@@ -1211,7 +1224,7 @@ img {
     justify-content: center;
   }
   
-  .modal__right-title {
+/*  .modal__right-title {
     margin-right: 219px;
     margin-bottom: 5px;
   }
@@ -1220,7 +1233,7 @@ img {
   }
   .modal__right__input-1 {
     margin-top: 9px;
-  }
+  }*/
 }
 
 @media (max-width: 768px) {
