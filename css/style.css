@@ -737,10 +737,10 @@ li {
 /* line 25, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_offer.sass */
 .offer__left {
   background-color: #ffc000;
-  padding-left: 376px;
-  flex-basis: 98%;
+  /*padding-left: 376px;*/
+  flex-basis: 55%;
   min-height: 660px;
-  margin-top: -37px;
+  /*margin-top: -37px;*/
 }
 
 /* line 31, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_offer.sass */
@@ -755,16 +755,16 @@ li {
 }
 
 /* line 36, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_offer.sass */
-.form__right {
+.offer__right {
   display: block;
-  padding-left: 134px;
+  /*padding-left: 134px;*/
   background: url(../img/offer/bg-right.png) no-repeat;
   box-sizing: cover;
   flex-basis: 45%
-  padding-right: 20px;
+  /*padding-right: 20px;*/
   font-weight: 400;
   line-height: 33px;
-  padding-top: 103px;
+  /*padding-top: 103px;*/
 }
 
 /* line 46, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_offer.sass */
@@ -804,7 +804,7 @@ li {
   font-family: 'Museo Sans Light';
   line-height: 24px;
   font-size: 15px;
-  padding-bottom: 93px;
+  /*padding-bottom: 93px;*/
 }
 
 /* line 1, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_modal.sass */
@@ -1045,8 +1045,44 @@ hr {
 .map{
   flex-basis: 55%;
   min-height: 640px;
-  margin-top: -37px;
 }
+.contacts{
+  margin-left: 100px;
+  width: 881px;
+  height: 640px;
+}
+.contacts__title{
+  font-family: 'Museo Sans Bold', sans-serif;
+  font-size: 22px;
+  line-height: 33px;
+}
+.contacts-bold{
+  font-family: 'Museo Sans Bold', sans-serif;
+}
+
+.contacts__text-1{
+  line-height: 26px;
+  font-size: 16px;
+  font-family: 'Museo Sans Medium';
+  margin-bottom: 39px;
+}
+.contacts__text-2{
+  line-height: 26px;
+  font-size: 16px;
+  font-family: 'Museo Sans Medium';
+  margin-bottom: 39px;
+}
+
+.contacts__text-3{
+  line-height: 26px;
+  font-size: 16px;
+  font-family: 'Museo Sans Medium';
+}
+
+.contacts__area{
+  list-style: url(../img/footer/contacts__img-1.png);;
+}
+
 /* line 60, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_modal.sass */
 ul {
   list-style-image: url(../img/modal/li-img.png);
@@ -1162,13 +1198,12 @@ img {
 
 @media (max-width: 2560px) {
   /* line 3, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .offer__left {
+/*  .offer__left {
     width: 164%;
-  }
-  /* line 5, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .offer__right {
+  }*/
+/*  .offer__right {
     width: 100%;
-  }
+  }*/
 }
 
 @media (max-width: 1920px) {
@@ -1183,9 +1218,9 @@ img {
 
 @media (max-width: 1680px) {
   /* line 18, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .offer__left {
+  /*.offer__left {
     padding-left: 100px;
-  }
+  }*/
 }
 
 @media (max-width: 1600px) {
