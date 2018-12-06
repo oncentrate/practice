@@ -726,18 +726,18 @@ li {
 
 /* line 18, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_offer.sass */
 .offer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1040px 880px;
+  grid-template-rows: 660px;
   margin: 0;
   padding: 0;
-  min-height: 660px;
+
 }
 
 /* line 25, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_offer.sass */
 .offer__left {
   background-color: #ffc000;
-  /*padding-left: 376px;*/
+  padding-left: 376px;
   flex-basis: 55%;
   min-height: 660px;
   /*margin-top: -37px;*/
@@ -757,14 +757,14 @@ li {
 /* line 36, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_offer.sass */
 .offer__right {
   display: block;
-  /*padding-left: 134px;*/
+  padding-left: 134px;
   background: url(../img/offer/bg-right.png) no-repeat;
   box-sizing: cover;
   flex-basis: 45%
-  /*padding-right: 20px;*/
+  padding-right: 20px;
   font-weight: 400;
   line-height: 33px;
-  /*padding-top: 103px;*/
+  padding-top: 103px;
 }
 
 /* line 46, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_offer.sass */
@@ -804,7 +804,7 @@ li {
   font-family: 'Museo Sans Light';
   line-height: 24px;
   font-size: 15px;
-  /*padding-bottom: 93px;*/
+  padding-bottom: 93px;
 }
 
 /* line 1, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_modal.sass */
@@ -1039,18 +1039,12 @@ hr {
 }
 
 .footer{
-  display: flex;
+  display: grid;
+  display: grid;
+  grid-template-columns: 1040px 880px;
+  grid-template-rows: 640px;
 }
 
-.map{
-  flex-basis: 55%;
-  min-height: 640px;
-}
-.contacts{
-  margin-left: 100px;
-  width: 881px;
-  height: 640px;
-}
 .contacts__title{
   font-family: 'Museo Sans Bold', sans-serif;
   font-size: 22px;
@@ -1197,13 +1191,19 @@ img {
 }
 
 @media (max-width: 2560px) {
-  /* line 3, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-/*  .offer__left {
-    width: 164%;
-  }*/
-/*  .offer__right {
-    width: 100%;
-  }*/
+.footer{
+  display: grid;
+  display: grid;
+  grid-template-columns: 1682px 878px;
+  grid-template-rows: 640px;
+  }
+.offer{
+  display: grid;
+  display: grid;
+  grid-template-columns: 1682px 878px;
+  grid-template-rows: 660px
+  }
+
 }
 
 @media (max-width: 1920px) {
@@ -1214,6 +1214,19 @@ img {
     z-index: 2;
     box-shadow: 10px 5px 50px rgba(0, 0, 0, 0.1);
   }
+  .footer{
+  display: grid;
+  display: grid;
+  grid-template-columns: 1056px 864px;
+  grid-template-rows: 640px;
+  }
+.offer{
+  display: grid;
+  display: grid;
+  grid-template-columns: 1056px 864px;
+  grid-template-rows: 660px
+  }
+
 }
 
 @media (max-width: 1680px) {
@@ -1231,6 +1244,22 @@ img {
     z-index: 2;
     box-shadow: 10px 5px 50px rgba(0, 0, 0, 0.1);
   }
+}
+
+@media (max-width: 1440px) {
+.footer{
+  display: grid;
+  display: grid;
+  grid-template-columns: 789px 649px;
+  grid-template-rows: 640px;
+  }
+.offer{
+  display: grid;
+  display: grid;
+  grid-template-columns: 789px 649px;
+  grid-template-rows: 660px
+  }
+
 }
 
 @media (max-width: 1199px) {
@@ -1283,11 +1312,17 @@ img {
 @media (max-width: 1050px) {
   /* line 55, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .offer {
-    display: block;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
   }
   /* line 57, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .offer__left {
     width: 100%;
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   /* line 59, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .offer__left-title {
@@ -1295,8 +1330,22 @@ img {
     padding-top: 50px;
   }
   /* line 62, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .form__right {
+  .offer__right {
     background: #fff;
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .footer{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .contacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
   }
 }
 
@@ -1528,25 +1577,23 @@ img {
 }
 @media (max-width: 606px) {
   /* line 157, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .form {
-    text-align: center;
-  }
+
   /* line 159, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .form__right {
-    padding: 0;
-    left: 25%;
-    position: absolute;
-    padding-top: 80px;
-  }
+
   /* line 164, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+
+  .offer__right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .form__right-input {
     width: 200px;
-    margin-left: 50px;
+    margin-left: 0;
   }
   /* line 167, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .form__right-button {
     width: 200px;
-    margin-left: 50px;
   }
 }
 
@@ -1577,7 +1624,6 @@ img {
   .form__button {
     width: 270px;
     font-size: 16px;
-    margin-left: 26%;
   }
   /* line 189, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   input {
@@ -1805,11 +1851,12 @@ img {
   }
 
   .form__right{
-    margin-left: -35px;
+    /*margin-left: -35px;*/
   }
 
   .form__right-button{
     display: block !important;
+    width: 100%;
   }
   .main__left-foot {
     width: 85%;
@@ -1963,17 +2010,22 @@ img {
 
   .step__footer-title {
     font-size: 20px;
-}
+  }
+  .offer_ul{
+    margin-left: 5px !important;
+  }
+
       
 }
 
 @media (max-width: 400px) {
-  .offer__left {
-    padding-left: 20px;
+.form__right-input {
+    width: 200px;
+    margin-left: 0;
   }
-
-  .form__right {
-    margin-left: -55px;
+  /* line 167, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
+  .form__right-button {
+    width: 100%;
   }
 }
 
@@ -2027,6 +2079,11 @@ img {
   .main__left-foot {
      width: 80%;
      margin-left: 70px;
+  }
+
+  .form__right-button{
+    width: 90%;
+    margin-left: 5%;
   }
 }
 
