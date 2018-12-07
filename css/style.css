@@ -1,4 +1,4 @@
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
 /**
@@ -727,7 +727,7 @@ li {
 /* line 18, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_offer.sass */
 .offer {
   display: grid;
-  grid-template-columns: 1040px 880px;
+  grid-template-columns: 1.3fr 1fr;
   grid-template-rows: 660px;
   margin: 0;
   padding: 0;
@@ -737,7 +737,7 @@ li {
 /* line 25, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_offer.sass */
 .offer__left {
   background-color: #ffc000;
-  padding-left: 376px;
+  padding-left: 40%;
   flex-basis: 55%;
   min-height: 660px;
   /*margin-top: -37px;*/
@@ -759,6 +759,7 @@ li {
   display: block;
   padding-left: 134px;
   background: url(../img/offer/bg-right.png) no-repeat;
+  background-size: cover;
   box-sizing: cover;
   flex-basis: 45%
   padding-right: 20px;
@@ -1040,8 +1041,12 @@ hr {
 
 .footer{
   display: grid;
-  grid-template-columns: 1040px 880px;
+  grid-template-columns: 1.3fr 1fr;
   grid-template-rows: 640px;
+}
+
+.map{
+  max-width: 100%
 }
 
 .contacts__title{
@@ -1193,7 +1198,7 @@ img {
 }
 
 @media (max-width: 2560px) {
-.footer{
+/*.footer{
   display: grid;
   display: grid;
   grid-template-columns: 1682px 878px;
@@ -1204,7 +1209,7 @@ img {
   display: grid;
   grid-template-columns: 1682px 878px;
   grid-template-rows: 660px
-  }
+  }*/
 
 }
 
@@ -1216,7 +1221,7 @@ img {
     z-index: 2;
     box-shadow: 10px 5px 50px rgba(0, 0, 0, 0.1);
   }
-  .footer{
+/*  .footer{
   display: grid;
   display: grid;
   grid-template-columns: 1056px 864px;
@@ -1227,7 +1232,7 @@ img {
   display: grid;
   grid-template-columns: 1056px 864px;
   grid-template-rows: 660px
-  }
+  }*/
 
 }
 
@@ -1249,7 +1254,7 @@ img {
 }
 
 @media (max-width: 1440px) {
-.footer{
+/*.footer{
   display: grid;
   display: grid;
   grid-template-columns: 789px 649px;
@@ -1261,7 +1266,7 @@ img {
   grid-template-columns: 789px 649px;
   grid-template-rows: 660px
   }
-
+*/
 }
 
 @media (max-width: 1199px) {
@@ -1309,11 +1314,7 @@ img {
   align-items: center;
   justify-content: center;
   }
-}
-
-@media (max-width: 1050px) {
-  /* line 55, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
-  .offer {
+    .offer {
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -1354,6 +1355,8 @@ img {
     padding: 0;
   }
 }
+}
+
 
 @media (max-width: 992px) {
   /* line 67, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
