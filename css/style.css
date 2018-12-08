@@ -1006,7 +1006,8 @@ hr {
 .step-wrap{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
   margin-bottom: 100px;
 }
 
@@ -1041,17 +1042,13 @@ hr {
 
 .choice-wrap{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   margin-bottom: 143px;
 }
 
-.choice__block-1{
-  margin-right: 30px;
-}
-.choice__block-2{
-  margin-right: 30px;
-}
+
 .choice__title{
   font-family: 'Museo Sans Bold', sans-serif;
   text-align: center;
@@ -1070,15 +1067,11 @@ hr {
 .proof_wrap{
   display: flex;
   text-align: center;
-  justify-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
   margin-bottom: 228px;
 }
-.proof_block-1{
-  margin-right: 130px;
-}
-.proof_block-2{
-  margin-right: 130px;
-}
+
 .proof__text-1 {
   padding-top: 41px;
 }
@@ -1398,9 +1391,18 @@ img {
   .contacts__main{
     padding: 0;
   }
-}
+
+  .step-arrow{
+    display: none;
+  }
 }
 
+
+@media(max-width: 1109px){
+  .choice__block-3{
+    margin-top: 25px;
+  }
+}
 
 @media (max-width: 992px) {
   /* line 67, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
@@ -1524,7 +1526,11 @@ img {
 
 }
 
-
+@media(max-width: 809px){
+  .proof_block-3{
+    margin-top: 25px;
+  }
+}
 
 @media (max-width: 768px) {
   /* line 103, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
@@ -1623,6 +1629,14 @@ img {
     line-height: 22px;
   }
 }
+
+@media(max-width: 739px){
+  .choice__block-2{
+    margin-top: 25px;
+  }
+}
+
+
 @media (max-width: 698px) {
 .step__footer-title{
   font-size: 25px;
@@ -1792,6 +1806,12 @@ img {
   /* line 266, C:/Users/Samoy/Desktop/WEB-start/project/practice/sass/_media.sass */
   .header-text__phone {
     font-size: 13px;
+  }
+}
+
+@media(max-width: 539px){
+  .proof_block-2{
+    margin-top: 25px;
   }
 }
 
